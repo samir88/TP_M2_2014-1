@@ -9,6 +9,8 @@ public class Marin {
 	private String prenom ;
 	
 	private int age ;
+	
+	private String adresse ;
 
 	public Marin() {
 		super();
@@ -51,6 +53,14 @@ public class Marin {
 
 	public void setId(Long id) {
 		this.id = id;
+	}
+	
+	public String getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
 	}
 
 	@Override
