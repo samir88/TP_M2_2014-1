@@ -10,7 +10,7 @@ public class Marin {
 	
 	private int age ;
 	
-	private String adresse ;
+	private Address adresse ;
 
 	public Marin() {
 		super();
@@ -55,17 +55,17 @@ public class Marin {
 		this.id = id;
 	}
 	
-	public String getAdresse() {
+	public Address getAdresse() {
 		return adresse;
 	}
 
-	public void setAdresse(String adresse) {
+	public void setAdresse(Address adresse) {
 		this.adresse = adresse;
 	}
 
 	@Override
 	public String toString() {
 		return "Marin [id=" + id + ", nom=" + nom + ", prenom=" + prenom
-				+ ", age=" + age + "]";
+				+ ", age=" + age + ", adresse=" + adresse + "]";
 	}
 }
