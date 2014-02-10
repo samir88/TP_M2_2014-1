@@ -2,6 +2,8 @@ package org.paumard.model;
 
 public class Marin {
 
+	private Long id ;
+	
 	private String nom ;
 	
 	private String prenom ;
@@ -43,9 +45,17 @@ public class Marin {
 		this.age = age;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	@Override
 	public String toString() {
-		return "Marin [nom=" + nom + ", prenom=" + prenom + ", age=" + age
-				+ "]";
+		return "Marin [id=" + id + ", nom=" + nom + ", prenom=" + prenom
+				+ ", age=" + age + "]";
 	}
 }
