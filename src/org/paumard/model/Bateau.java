@@ -60,6 +60,10 @@ public class Bateau {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Bateau [id=" + id + ", nom=" + nom + ", tonnage=" + tonnage
+				+ ", equipage=" + equipage + "]";
+	}
 }
