@@ -1,4 +1,6 @@
+# on exclut le répertoire de compilation
 /bin
+# on exclut les fichiers techniques d'Eclipse
 .classpath
 .project
 
