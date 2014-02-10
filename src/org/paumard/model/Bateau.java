@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import org.paumard.model.util.Statut;
+
 public class Bateau {
 
 	private String nom ;
@@ -12,6 +14,7 @@ public class Bateau {
 	
 	private List<Marin> equipage ;
 	
+	private Statut statut ;
 	
 	public Bateau() {
 		super();
@@ -49,5 +52,13 @@ public class Bateau {
 	
 	public Collection<Marin> getEquipage() {
 		return new ArrayList<>(this.equipage) ;
+	}
+
+	public Statut getStatut() {
+		return statut;
+	}
+
+	public void setStatut(Statut statut) {
+		this.statut = statut;
 	}
 }
