@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Bateau {
 
+	private Long id ;
+	
 	private String nom ;
 	
 	private int tonnage ;
@@ -50,4 +52,14 @@ public class Bateau {
 	public Collection<Marin> getEquipage() {
 		return new ArrayList<>(this.equipage) ;
 	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	
 }
